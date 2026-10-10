@@ -1,0 +1,48 @@
+node_modules/
+dist/
+coverage/
+
+# Local environment configuration; commit only the non-secret example.
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Python caches and virtual environments.
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Local databases and personal test data.
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.test-data
+test-data/
+*.secret
+*.token
+*_credentials.json
+*_secrets.json
+
+# Credentials, certificates, and private keys.
+secrets/
+credentials/
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.jks
+
+# Local editor and operating system files.
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
